@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-box {
+  width: 1600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container-box .box-car {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+}
+
+.container-box .box-car .img-resize {
+  width: 400px;
+  height: 250px;
+}
+
